@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="weather.css">
+    <title>Whats up Weather</title>
+</head>
+<body>
+    <div class="container my-4">
+        <h1 class="text-center my-4 text-light ">Whatz up Weather</h1>
+        <form  class="city form-container">
+            <input type="text" class="form-control" placeholder="your city please..">
+        </form>
+
+        <div class="card shadow-lg rounded">
+            <img src="https://via.placeholder.com/300" class="time card-image-top">
+            <div class="icon bg-light mx-auto">
+
+            </div>
+            <div class="text-uppercase text-center text-muted">
+                <div class=" my-city my-3">City Name</div>
+                <div class="my-weather my-3">Weather</div>
+                <div class=" my-4 display-4">
+                    <span class="my-temp">temp</span>
+                    <span>&deg;C</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+<script src="forecast.js"></script>
+<script src="app.js"></script>
+</html>

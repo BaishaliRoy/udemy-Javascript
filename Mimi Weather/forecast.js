@@ -1,3 +1,4 @@
+// accuweather api
 const accuApi = "8yQZiQy8A3PHWLgnJz0dx7AorGPGi456";
 
 // to get weqather information, returns weather reponse

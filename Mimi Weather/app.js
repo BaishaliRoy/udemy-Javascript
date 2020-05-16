@@ -1,3 +1,4 @@
+//Changes to check GIT 
 const inputCity = document.querySelector('.city');
 const myCity = document.querySelector('.my-city');
 const myWeather = document.querySelector('.my-weather');
